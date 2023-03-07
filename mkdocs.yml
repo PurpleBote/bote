@@ -1,0 +1,99 @@
+site_name: I2P Bote Protocol documentation
+site_url: https://bote.readthedocs.io
+site_description: I2P Bote Protocol documentation
+site_author: polistern
+
+repo_url: https://github.com/PurpleBote/bote
+repo_name: PurpleBote/bote
+
+nav:
+- Home: index.md
+- Glossary of Terms: terms.md
+- Version 5 (current):
+  - Description: v5/index.md
+  - Introduction: v5/introduction.md
+  - Kademlia: v5/kademlia.md
+  - Packet Types: v5/packet_types.md
+  - Protocols: v5/protocols.md
+  - Cryptography: v5/cryptography.md
+- Version 6 (draft):
+  - Description: v6/index.md
+  - Introduction: v6/introduction.md
+  - Kademlia: v6/kademlia.md
+  - Packet Types: v6/packet_types.md
+  - Protocols: v6/protocols.md
+  - Cryptography: v6/cryptography.md
+- Deprecated:
+  - Version 4:
+    - Introduction: old/v4/introduction.md
+    - Kademlia: old/v4/kademlia.md
+    - Packet Types: old/v4/packet_types.md
+    - Protocols: old/v4/protocols.md
+    - Algorithms Used By Nodes Locally: old/v4/algorithms_used_by_nodes_locally.md
+    - Files: old/v4/files.md
+    - Cryptography: old/v4/cryptography.md
+    - Glossary of Terms: old/v4/glossary_of_terms.md
+
+copyright: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>, Maintained by <a href="https://github.com/polistern">polistern</a>
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+plugins:
+  - search
+  - git-revision-date
+  - i18n:
+      default_language: en
+      docs_structure: suffix
+      languages:
+        en:
+          name: English
+          build: true
+          site_name: I2P Bote Protocol
+        ru:
+          name: Russian
+          build: true
+          site_name: Протокол I2P Bote
+      nav_translations:
+        ru:
+          Home: Главная
+          Bote Protocol: Протокол Bote
+          Version 6 (draft): Версия 6 (черновик)
+          Version 5 (current): Версия 5 (текущая)
+          Deprecated: Устаревшие
+          Version 4: Версия 4
+          Description: Описание
+          Glossary of Terms: Словарь терминов
+          Introduction: Введение
+          Packet Types: Типы пакетов
+          Protocols: Протоколы
+          Cryptography: Криптография
+          About: О проекте
+          License: Лицензия
+          Special thanks: Особые благодарности
+          Contributing: Содействие
+          Donations: Пожертвования
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: purple
+  #custom_dir: overrides/
+  icon:
+    repo: fontawesome/brands/github
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
