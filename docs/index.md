@@ -1,22 +1,38 @@
 # I2P Bote Protocol
 
-I2P-Bote is a server-less encrypted [DHT Kademlia](https://en.wikipedia.org/wiki/Distributed_hash_table)-based email protocol.
+* [clearnet](https://bote.readthedocs.io/en/latest/)
+* [I2P](http://polistern.i2p/bote/)
+
+**I2P-Bote** is a server-less encrypted [DHT Kademlia](https://en.wikipedia.org/wiki/Distributed_hash_table)-based email protocol.
+
+## Versions
+
+- [v5](v5/index.md): current version with fixed communication issues.
+- [v6](v6/index.md): possible future version. Currently in draft state.
+
+### Deprecated
+
+- [v4](old/v4/introduction.md): Does not support new I2P addresses.
+
+## Implementations
+
+- [i2p.i2p-bote](https://github.com/i2p/i2p.i2p-bote)
+    - Original implementation of the protocol as a plugin for Java I2P router
+    - Protocol versions: v4
+    - Status: looks abandoned
+- [i2pboted](https://github.com/majestrate/i2pboted)
+    - Standalone Go implementation
+    - Protocol versions: v4
+    - Status: looks abandoned
+- [pboted](https://github.com/PurpleBote/pboted)
+    - Standalone C++ implementation
+    - Protocol versions: v4, v5
+    - Status: active
 
 ## Resources
 
 - [Documentation](https://bote.readthedocs.io/en/latest/) ([I2P](http://polistern.i2p/bote/))
 - [Tickets/Issues](https://github.com/PurpleBote/bote/issues)
-
-## Implementations
-
-- [i2p.i2p-bote](https://github.com/i2p/i2p.i2p-bote)  
-    Original implementation of the protocol as a plugin for Java I2P router.  
-    Development of the project is currently suspended.
-- [i2pboted](https://github.com/majestrate/i2pboted)  
-    Go implementation.  
-    Development of the project is currently suspended.
-- [pboted](https://github.com/PurpleBote/pboted)  
-    Standalone C++ implementation.
 
 ## Submitting changes
 

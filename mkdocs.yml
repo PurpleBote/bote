@@ -1,6 +1,6 @@
-site_name: I2P Bote Protocol documentation
+site_name: I2P Bote Protocol
 site_url: https://bote.readthedocs.io
-site_description: I2P Bote Protocol documentation
+site_description: I2P Bote Protocol
 site_author: polistern
 
 repo_url: https://github.com/PurpleBote/bote
