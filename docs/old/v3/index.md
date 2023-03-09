@@ -1,28 +1,32 @@
-# Version 5
+# Version 3
 
 This section presents the general principles of the interaction of nodes over the protocol.  
 Implementation details may vary depending on the client.
 
 ## Status
 
-**ACTIVE**
+**deprecated**
+
+### Reasons
+
+**TODO**
 
 ## Changes
 
-All changes concerning version 5 are marked with comment `[VER 5]`
+**TODO**
 
 ## Support
 
-Support of 5th version of I2P-Bote protocol:
+Support of 3rd version of I2P-Bote protocol:
 
-### pboted
+### i2p.i2p-bote
 
-- **version**: `0.7.0`(partial), `0.8.0` (expected full)
-- **commit**: `-`
-- **date**: `-`
+- **version**: `0.2.4`
+- **commit**: `00226dfe4de0231421303fa5d3be9a53fa15f249`
+- **date**: `2010.06.14`
 
 ## Authors:
 
 Took part in the description of the new version of the protocol:
 
-- **polistern**
+- **HungryHobo**

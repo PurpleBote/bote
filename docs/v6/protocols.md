@@ -1,4 +1,4 @@
-# Protocols (DRAFT)
+# Protocols
 
 ## 1. Storing a DHT item via relays
 

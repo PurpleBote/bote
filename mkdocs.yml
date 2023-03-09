@@ -1,6 +1,6 @@
-site_name: I2P Bote Protocol
+site_name: I2P-Bote Protocol
 site_url: https://bote.readthedocs.io
-site_description: I2P Bote Protocol
+site_description: I2P-Bote Protocol
 site_author: polistern
 
 repo_url: https://github.com/PurpleBote/bote
@@ -25,14 +25,17 @@ nav:
   - Cryptography: v6/cryptography.md
 - Deprecated:
   - Version 4:
-    - Introduction: old/v4/introduction.md
-    - Kademlia: old/v4/kademlia.md
-    - Packet Types: old/v4/packet_types.md
-    - Protocols: old/v4/protocols.md
-    - Algorithms Used By Nodes Locally: old/v4/algorithms_used_by_nodes_locally.md
-    - Files: old/v4/files.md
-    - Cryptography: old/v4/cryptography.md
-    - Glossary of Terms: old/v4/glossary_of_terms.md
+    - Description: old/v4/index.md
+    - Information: old/v4/info.md
+  - Version 3:
+    - Description: old/v3/index.md
+    - Information: old/v3/info.md
+  - Version 2:
+    - Description: old/v2/index.md
+    - Information: old/v2/info.md
+  - Version 1:
+    - Description: old/v1/index.md
+    - Information: old/v1/info.md
 
 copyright: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>, Maintained by <a href="https://github.com/polistern">polistern</a>
 
@@ -51,30 +54,28 @@ plugins:
         en:
           name: English
           build: true
-          site_name: I2P Bote Protocol
+          site_name: I2P-Bote Protocol
         ru:
           name: Russian
           build: true
-          site_name: Протокол I2P Bote
+          site_name: Протокол I2P-Bote
       nav_translations:
         ru:
           Home: Главная
-          Bote Protocol: Протокол Bote
-          Version 6 (draft): Версия 6 (черновик)
-          Version 5 (current): Версия 5 (текущая)
-          Deprecated: Устаревшие
-          Version 4: Версия 4
-          Description: Описание
           Glossary of Terms: Словарь терминов
+          Version 5 (current): Версия 5 (текущая)
+          Description: Описание
           Introduction: Введение
           Packet Types: Типы пакетов
           Protocols: Протоколы
           Cryptography: Криптография
-          About: О проекте
-          License: Лицензия
-          Special thanks: Особые благодарности
-          Contributing: Содействие
-          Donations: Пожертвования
+          Version 6 (draft): Версия 6 (черновик)
+          Deprecated: Устаревшие
+          Version 4: Версия 4
+          Version 3: Версия 3
+          Version 2: Версия 2
+          Version 1: Версия 1
+          Information: Информация
 
 theme:
   name: material

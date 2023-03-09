@@ -1,4 +1,4 @@
-# Kademlia (DRAFT)
+# Kademlia
 
 The Kademlia implementation used by I2P-Bote differs from standard Kademlia in several ways:
 
@@ -41,10 +41,6 @@ To delete an item in `Index Packet` a `Delete Verification` hash is required as 
 It is the same hash as the one for the `Email Packet` which the `Index Packet` entry points to.
 
 ## Contact
-
-!! note "Note"
-
-    For now only a part of Java I2P-Bote. WIP
 
 DHT-propagated mapping for `public name` and `Email Destination`.
 It is a decentralized analogue of the local address book.

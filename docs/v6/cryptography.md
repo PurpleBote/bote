@@ -1,16 +1,16 @@
-# Cryptography (DRAFT)
+# Cryptography
 
 ## 1. Asymmetric encryption and signing
 
 Encryption and signature algorithms:
 
-| ID | Crypto           | Signing     | Symmetric | Hash    | Java Bote | pboted             |
-|----|------------------|-------------|-----------|---------|-----------|--------------------|
-| 1  | ElGamal-2048     | DSA-1024    | AES-256   | SHA-256 | active    | never (deprecated) |
-| 2  | ECDH-256         | ECDSA-256   | AES-256   | SHA-256 | active    | active             |
-| 3  | ECDH-521         | ECDSA-521   | AES-256   | SHA-512 | active    | active             |
-| 4  | NTRUEncrypt-1087 | GMSS-512    | AES-256   | SHA-512 | active    | soon               |
-| 5  | X25519           | ED25519     | AES-256   | SHA-512 | no        | active             |
+| ID | Crypto           | Signing     | Symmetric | Hash    | i2p.i2p-bote | pboted             |
+|----|------------------|-------------|-----------|---------|--------------|--------------------|
+| 1  | ElGamal-2048     | DSA-1024    | AES-256   | SHA-256 | active       | never (deprecated) |
+| 2  | ECDH-256         | ECDSA-256   | AES-256   | SHA-256 | active       | active             |
+| 3  | ECDH-521         | ECDSA-521   | AES-256   | SHA-512 | active       | active             |
+| 4  | NTRUEncrypt-1087 | GMSS-512    | AES-256   | SHA-512 | active       | soon               |
+| 5  | X25519           | ED25519     | AES-256   | SHA-512 | no           | active             |
 
 ## 2. Email Identity Formats
 
@@ -22,7 +22,7 @@ The previously used option for storing and passing `Email Destinations` and `Ema
 
 ### Version 0
 
-Used by **pboted** and **Java Bote**
+_Used by **pboted** and **i2p.i2p-bote**_
 
 - An `Email Destination` is a Base64 string containing:
     - public encryption key;
@@ -64,7 +64,7 @@ Example of a 86-character `Email Destination` (ECC-256):
 
 ### Version 1
 
-Used by **pboted**
+_Used by **pboted**_
 
 Template:
 `<data format>.<encoded data>`
@@ -116,7 +116,7 @@ b64.AQUFAgJI2e47rS9VkSEfM4ZHfuimMA1EoUmLZd1DNSX8fqocLA3v8cv~XSnQpUSax~9Gs2cFH2rt
 
 ## 2. Fingerprints For Directory Entries
 
-ToDo: Looks specific to Java app, remove from protocol description
+ToDo: Looks specific to **i2p.i2p-bote**, remove from protocol description
 
 TODO
 H = scrypt(name, dest, zuf.wert); die letzten 8 Binärstellen von H müssen 0 sein

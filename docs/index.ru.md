@@ -1,4 +1,4 @@
-# Протокол I2P Bote
+# Протокол I2P-Bote
 
 * [clearnet](https://bote.readthedocs.io/en/latest/)
 * [I2P](http://polistern.i2p/bote/)
@@ -12,7 +12,10 @@
 
 ### Устаревшие
 
-- [v4](old/v4/introduction.md): не поддерживает новые I2P адреса.
+- [v4](old/v4/index.md)
+- [v3](old/v3/index.md)
+- [v2](old/v2/index.md)
+- [v1](old/v1/index.md)
 
 ## Реализации
 
@@ -36,7 +39,7 @@
 
 ## Отправка изменений
 
-Вы можете отправлять пулл-реквест в [документацию I2P Bote](https://github.com/PurpleBote/bote/pull/new/master) с ясным списком сделаных изменений (подробнее о [пулл-реквестах](http://help.github.com/pull-requests/)).
+Вы можете отправлять пулл-реквест в [документацию I2P-Bote](https://github.com/PurpleBote/bote/pull/new/master) с ясным списком сделаных изменений (подробнее о [пулл-реквестах](http://help.github.com/pull-requests/)).
 
 Пожалуйста, убедитесь:
 

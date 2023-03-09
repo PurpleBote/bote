@@ -1,4 +1,4 @@
-# I2P Bote Protocol
+# I2P-Bote Protocol
 
 * [clearnet](https://bote.readthedocs.io/en/latest/)
 * [I2P](http://polistern.i2p/bote/)
@@ -12,7 +12,10 @@
 
 ### Deprecated
 
-- [v4](old/v4/introduction.md): Does not support new I2P addresses.
+- [v4](old/v4/index.md)
+- [v3](old/v3/index.md)
+- [v2](old/v2/index.md)
+- [v1](old/v1/index.md)
 
 ## Implementations
 
@@ -36,7 +39,7 @@
 
 ## Submitting changes
 
-Please send a GitHub Pull Request to [I2P Bote documentation](https://github.com/PurpleBote/bote/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)).
+Please send a GitHub Pull Request to [I2P-Bote documentation](https://github.com/PurpleBote/bote/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)).
 
 Please make sure:
 

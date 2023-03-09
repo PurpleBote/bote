@@ -1,9 +1,11 @@
 # Packet Types
 
-* Version 5 is incompatible to earlier versions.
-* Version 5 clients will talk to higher versions.
-* Strings in packets are UTF-8 encoded.
-* `E` denotes encrypted data.
+## General
+
+- Version 5 is incompatible to earlier versions.
+- Version 5 clients will talk to higher versions.
+- Strings in packets are UTF-8 encoded.
+- `E` denotes encrypted data.
 
 For supported encryption and signature algorithms, see [Cryptography](cryptography.md)
 
@@ -11,8 +13,8 @@ For supported encryption and signature algorithms, see [Cryptography](cryptograp
 
 All `Data packets` start with:
 
-- one byte for the `Packet type`;
-- one byte for the `Protocol version`.
+- `Packet type` (1 byte);
+- `Protocol version` (1 byte).
 
 These are **always sent wrapped** in a `Communication Packet` (see 2.).
 
@@ -54,15 +56,15 @@ Storage format for the `Incomplete Email`
 
 Supported algorithms may differ depending on the implementation. 
 
-| Value | Description      | Java Bote | pboted                 |
-|-------|------------------|-----------|------------------------|
-| `0`   | Uncompressed     | yes       | yes (to old addresses) |
-| `1`   | LZMA             | yes       | yes (receive only)     |
-| `2`   | ZLIB `[VER 5]`   | no        | yes (to new addresses) |
-| `3`   | BZIP2 `[VER 5]`  | no        | no                     |
-| `4`   | ZSTD `[VER 5]`   | no        | no                     |
-| `5`   | LZ4 `[VER 5]`    | no        | no                     |
-| `6`   | Snappy `[VER 5]` | no        | no                     |
+| Value | Description      | i2p.i2p-bote | pboted |
+|-------|------------------|--------------|--------|
+| `0`   | Uncompressed     | yes          | yes    |
+| `1`   | LZMA             | yes          | yes    |
+| `2`   | ZLIB `[VER 5]`   | no           | yes    |
+| `3`   | BZIP2 `[VER 5]`  | no           | no     |
+| `4`   | ZSTD `[VER 5]`   | no           | no     |
+| `5`   | LZ4 `[VER 5]`    | no           | no     |
+| `6`   | Snappy `[VER 5]` | no           | no     |
 
 ### 1.3 Index Packet
 
@@ -247,7 +249,7 @@ Response to a `Retrieve Request`, `Fetch Request`, `Find Close Peers Request`, o
 | `CID`   | 32 bytes   | Correlation ID of the request Packet               |
 | `STA`   | 1 byte     | Status code (see below)                            |
 | `DLEN`  | 2 bytes    | Length of the `DATA` field; can be 0 if no payload |
-| `DATA`  | byte[]     | A Data Packet                                      |
+| `DATA`  | byte[]     | Payload (Data Packet)                              |
 
 #### Status codes
 
@@ -373,7 +375,7 @@ Request to remove one or more entries (`Email Packet` keys) from an `Index Packe
 
 ### 3.6 Find Close Peers
 
-Request for K peers close to a key.
+Request for K-peers close to a key.
 
 `Response Packet` with correct status is expected back `[VER 5]`.
 

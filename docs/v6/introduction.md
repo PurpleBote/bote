@@ -1,4 +1,4 @@
-# Introduction (DRAFT)
+# Introduction
 
 I2P-Bote is a serverless pseudonymous email exchange service for the I2P network.  
 Emails are stored encrypted in a Kademlia DHT formed by all I2P-bote nodes.
