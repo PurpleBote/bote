@@ -1,6 +1,6 @@
-site_name: I2P-Bote Protocol
+site_name: I2P/Bote Protocol
 site_url: https://bote.readthedocs.io
-site_description: I2P-Bote Protocol
+site_description: I2P/Bote Protocol
 site_author: polistern
 
 repo_url: https://github.com/PurpleBote/bote
@@ -54,11 +54,11 @@ plugins:
         en:
           name: English
           build: true
-          site_name: I2P-Bote Protocol
+          site_name: I2P/Bote Protocol
         ru:
           name: Russian
           build: true
-          site_name: Протокол I2P-Bote
+          site_name: Протокол I2P/Bote
       nav_translations:
         ru:
           Home: Главная

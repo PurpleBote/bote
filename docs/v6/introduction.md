@@ -1,6 +1,6 @@
 # Introduction
 
-I2P-Bote is a serverless pseudonymous email exchange service for the I2P network.  
+**I2P/Bote** is a serverless pseudonymous email exchange service for the I2P network.  
 Emails are stored encrypted in a Kademlia DHT formed by all I2P-bote nodes.
 
 Email can be sent through a number of other nodes (relays) for increased anonymity, or directly to a set of storage nodes for faster delivery.
@@ -95,6 +95,6 @@ If both sender and recipient chose not to use relays, the diagram looks like thi
  `-----------'
 ```
 
-I2P-Bote uses Base32/Base64 strings for addresses.  
+I2P/Bote uses Base32/Base64 strings for addresses.  
 They are called [Email Destinations](../terms.md#email-destination) and can be variable length, depending on the type of encryption the user chooses.  
 For more details see [Cryptography](cryptography.md).

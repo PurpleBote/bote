@@ -1,10 +1,10 @@
 # Kademlia
 
-The Kademlia implementation used by I2P-Bote differs from standard Kademlia in several ways:
+The Kademlia implementation used by I2P/Bote differs from standard Kademlia in several ways:
 
 * Items can be deleted from the DHT
 * No caching of DHT items because they are only retrieved once and then deleted
-* I2P-Bote uses sibling lists (S-buckets) as suggested in the S/Kademlia paper
+* I2P/Bote uses sibling lists (S-buckets) as suggested in the S/Kademlia paper
 
 There are three types of data that is stored in the DHT:
 
@@ -34,7 +34,7 @@ Note that once a delete request for a given `Email Packet` has been received by 
 `Index Packets` contain the DHT keys of one or more `Email Packets`.  
 The DHT key of an `Index Packet` is the SHA-256 hash of the `Email Destination` the `Email Packets` are destined for.
 
-To check for new email for a given `Email Destination`, I2P-Bote first queries the DHT for `Index Packets` for that `Email Destination`, then queries the DHT for all `Email Packet` keys in the `Index Packets`.  
+To check for new email for a given `Email Destination`, I2P/Bote first queries the DHT for `Index Packets` for that `Email Destination`, then queries the DHT for all `Email Packet` keys in the `Index Packets`.  
 When a complete set of `Email Packets` has been received, the email is reconstructed and placed in the `inbox`.
 
 To delete an item in `Index Packet` a `Delete Verification` hash is required as well.  

@@ -1,9 +1,9 @@
-# Протокол I2P-Bote
+# Протокол I2P/Bote
 
 * [clearnet](https://bote.readthedocs.io/en/latest/)
-* [I2P](http://polistern.i2p/bote/)
+* [I2P](http://purplebote.i2p/bote/)
 
-**I2P-Bote** - это бессерверный, основанный на [распределённой хеш-таблице Kademlia](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F_%D1%85%D0%B5%D1%88-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0), протокол обмена зашифрованными сообщениями электронной почты.
+**I2P/Bote** - это бессерверный, основанный на [распределённой хеш-таблице Kademlia](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D1%81%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%91%D0%BD%D0%BD%D0%B0%D1%8F_%D1%85%D0%B5%D1%88-%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B0), протокол обмена зашифрованными сообщениями электронной почты.
 
 ## Версии
 
@@ -21,12 +21,12 @@
 
 - [i2p.i2p-bote](https://github.com/i2p/i2p.i2p-bote)
     - Оригинальная реализация протокола в виде плагина для Java I2P роутера
-    - Версии протокола: v4
-    - Статус: выглядит заброшенным
+    - Версии протокола: v4, v5(?)
+    - Статус: на жизнеобеспечении(?)
 - [i2pboted](https://github.com/majestrate/i2pboted)
     - Самостоятельный клиент на языке Go
     - Версии протокола: v4
-    - Статус: выглядит заброшенным
+    - Статус: заморожен(?)
 - [pboted](https://github.com/PurpleBote/pboted)
     - Самостоятельный клиент на языке C++
     - Версии протокола: v4, v5
@@ -34,12 +34,12 @@
 
 ## Ресурсы
 
-- [Документация](https://bote.readthedocs.io/ru/latest/) ([I2P](http://polistern.i2p/bote/))
+- [Документация](https://bote.readthedocs.io/ru/latest/) ([I2P](http://purplebote.i2p/bote/))
 - [Заявки/Вопросы](https://github.com/polistern/bote/issues)
 
 ## Отправка изменений
 
-Вы можете отправлять пулл-реквест в [документацию I2P-Bote](https://github.com/PurpleBote/bote/pull/new/master) с ясным списком сделаных изменений (подробнее о [пулл-реквестах](http://help.github.com/pull-requests/)).
+Вы можете отправлять пулл-реквест в [документацию I2P/Bote](https://github.com/PurpleBote/bote/pull/new/master) с ясным списком сделаных изменений (подробнее о [пулл-реквестах](http://help.github.com/pull-requests/)).
 
 Пожалуйста, убедитесь:
 

@@ -15,6 +15,12 @@ All changes concerning version 5 are marked with comment `[VER 5]`
 
 Support of 5th version of I2P-Bote protocol:
 
+### i2p.i2p-bote
+
+- **version**: `0.5.0`(?)
+- **commit**: `-`
+- **date**: `-`
+
 ### pboted
 
 - **version**: `0.7.0`(partial), `0.8.0` (expected full)

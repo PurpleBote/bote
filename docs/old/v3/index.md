@@ -17,7 +17,7 @@ Implementation details may vary depending on the client.
 
 ## Support
 
-Support of 3rd version of I2P-Bote protocol:
+Support of 3rd version of I2P/Bote protocol:
 
 ### i2p.i2p-bote
 

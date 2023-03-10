@@ -9,7 +9,7 @@ Implementation details may vary depending on the client.
 
 !!! warning "Warning"
 
-    While the 6th version of the I2P-Bote protocol is in draft state, there may be some inconsistency. 
+    While the 6th version of the I2P/Bote protocol is in draft state, there may be some inconsistency. 
   
 Proposals for improving the 6th version of the protocol are accepted for consideration.
 
@@ -19,7 +19,7 @@ All changes concerning version 5 are marked with comment `[VER 6]`
 
 ## Support
 
-Support of 6th version of I2P-Bote protocol:
+Support of 6th version of I2P/Bote protocol:
 
 ### pboted
 

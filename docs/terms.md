@@ -2,11 +2,11 @@
 
 ## `Email Destination`
 
-As the name implies, an `Email Destination` is an identifier by which somebody can be reached via I2P-Bote.
+As the name implies, an `Email Destination` is an identifier by which somebody can be reached via I2P/Bote.
 
 ## `Email Address`
 
-`Email Addresses` in I2P-Bote are shortcuts for `Email Destinations`.  
+`Email Addresses` in I2P/Bote are shortcuts for `Email Destinations`.  
 `Email Address`<-->`Email Destination` mappings are stored in two places:
 
 - local address book;
@@ -26,7 +26,7 @@ An `Email Identity` is not required for sending emails (in that case only "Anony
 
 ## `I2P destination`
 
-The address of a I2P-Bote node on the I2P network. There is normally no need to know it.  
+The address of a I2P/Bote node on the I2P network. There is normally no need to know it.  
 Stored in file `destination.key` in working directory.  
 `I2P destinations` and `Email Destinations` look similar, but are completely independent of each other.
 

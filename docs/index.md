@@ -1,9 +1,9 @@
-# I2P-Bote Protocol
+# I2P/Bote Protocol
 
 * [clearnet](https://bote.readthedocs.io/en/latest/)
-* [I2P](http://polistern.i2p/bote/)
+* [I2P](http://purplebote.i2p/bote/)
 
-**I2P-Bote** is a server-less encrypted [DHT Kademlia](https://en.wikipedia.org/wiki/Distributed_hash_table)-based email protocol.
+**I2P/Bote** is a server-less encrypted [DHT Kademlia](https://en.wikipedia.org/wiki/Distributed_hash_table)-based email exchange protocol.
 
 ## Versions
 
@@ -21,25 +21,25 @@
 
 - [i2p.i2p-bote](https://github.com/i2p/i2p.i2p-bote)
     - Original implementation of the protocol as a plugin for Java I2P router
-    - Protocol versions: v4
-    - Status: looks abandoned
+    - **Protocol**: v4, v5(?)
+    - **Status**: life support(?)
 - [i2pboted](https://github.com/majestrate/i2pboted)
     - Standalone Go implementation
-    - Protocol versions: v4
-    - Status: looks abandoned
+    - **Protocol**: v4(?)
+    - **Status**: frozen(?)
 - [pboted](https://github.com/PurpleBote/pboted)
     - Standalone C++ implementation
-    - Protocol versions: v4, v5
-    - Status: active
+    - **Protocol**: v4, v5
+    - **Status**: active
 
 ## Resources
 
-- [Documentation](https://bote.readthedocs.io/en/latest/) ([I2P](http://polistern.i2p/bote/))
+- [Documentation](https://bote.readthedocs.io/en/latest/) ([I2P](http://purplebote.i2p/bote/))
 - [Tickets/Issues](https://github.com/PurpleBote/bote/issues)
 
 ## Submitting changes
 
-Please send a GitHub Pull Request to [I2P-Bote documentation](https://github.com/PurpleBote/bote/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)).
+Please send a GitHub Pull Request to [I2P/Bote documentation](https://github.com/PurpleBote/bote/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)).
 
 Please make sure:
 

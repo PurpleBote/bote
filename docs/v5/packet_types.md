@@ -152,7 +152,7 @@ A name/`Email Destination` mapping.
 
 ## 2. Communication Packets
 
-`Communication packets` are used for sending data between I2P-Bote nodes.
+`Communication packets` are used for sending data between I2P/Bote nodes.
 
 They can contain a `Data Packet`, see 3.1.
 
